@@ -1,9 +1,11 @@
 import Item from './Item';
 
-function List() {
+function List({onDelete, items}) {
     return (
         <div className="list__container">
-            <Item />
+           {items.map((item,index) => {
+               return <Item  key={index} onDelete={onDelete} item={item}/>
+           })}
         </div>
     )
 }

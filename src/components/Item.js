@@ -1,12 +1,12 @@
 import { AiFillEdit, AiFillDelete } from "react-icons/ai";
 
-function Item() {
+function Item({onDelete, item}) {
   return (
     <div className="item__container">
-      <h3 className="item__title">Eggs</h3>
+      <h3 className="item__title">{item.text}</h3>
       <div className="item__operation__container">
         <AiFillEdit className="operation__btn operation__btn--edit"/>
-        <AiFillDelete className="operation__btn operation__btn--delete"/>
+        <AiFillDelete className="operation__btn operation__btn--delete" onClick={()=> onDelete(item.id)}/>
       </div>
     </div>
   );
