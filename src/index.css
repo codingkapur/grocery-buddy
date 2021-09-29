@@ -130,7 +130,7 @@ body {
   font-weight: 700;
   cursor: pointer;
 }
-
+/* ---CLEAR BUTTON--- */
 .clear__btn:hover {
   background-color: #fff;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
