@@ -4,8 +4,9 @@
 Node version: 
 1. Run command 'git clone https://github.com/codingkapur/task-tracker-reactjs.git'
 2. Run command 'npm install"
-3. run command 'npm run server'
-4. run command 'npm start'
+3. Run command 'npm run server'
+4. Add "server": "json-server --watch db.json --port 5000" under scripts in package.json
+5. Run command 'npm start' in a new terminal
 
 ## DESCRIPTION:
 
