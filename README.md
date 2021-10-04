@@ -14,6 +14,6 @@ Editing functionality to be implemented.
 ## PURPOSE OF BUILDING THIS PROJECT:
 
 The purpose behind building this project is to learn ReactJs, by understanding and developing comfort with the syntax.
-This is a rebuild of a small project i saw on Youtube. 
+This is a rebuild of a small project I saw on Youtube. 
 The rebuild will be done without reference to the video, and unless stuck and infinitely frustrated, the code. The objective is to gauge understanding of concepts and ability to use the ReactJs teachnology to build basic applications.
 

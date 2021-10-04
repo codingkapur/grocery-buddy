@@ -66,8 +66,8 @@ function App() {
   const onEdit = (id) => {
     setBtnState(false);
     const editItem = items.find(x=> x.id === id);
-    setEditID(id);
-    // console.log(id);
+    setEditID(x => editItem.id);
+    console.log(id);
     console.log(editID);
     console.log(editItem)
 
